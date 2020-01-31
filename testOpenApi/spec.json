@@ -1,0 +1,74 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "TEST_TEST_TTT",
+    "version": "0.0.1",
+    "description": "# test test test\nopen api test"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8088",
+      "description": "locala"
+    }
+  ],
+  "tags": [
+    {
+      "name": "01-ABC"
+    },
+    {
+      "name": "02-DEF"
+    }
+  ],
+  "paths": {
+    "/api/v1/test": {
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "description": "TTT"
+        }
+      ],
+      "get": {
+        "operationId": "apiFlightReservationsGet",
+        "tags": [
+          "01-ABC"
+        ],
+        "summary": "test api doc",
+        "description": "test blah blah blah",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "description": "response test",
+                  "type": "object",
+                  "properties": {
+                    "xxx": {
+                      "description": "xxxxxx data",
+                      "type": "string",
+                      "example": "roman"
+                    },
+                    "yyy": {
+                      "description": "yyyy data",
+                      "type": "boolean",
+                      "example": true
+                    }
+                  },
+                  "required": [
+                    "xxx"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

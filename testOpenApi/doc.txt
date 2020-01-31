@@ -1,0 +1,8 @@
+-> redoc-cli serve openapi.yml --options.expandResponses=all --options.pathInMiddlePanel --options.noAutoAuth --port 9000 
+-> redoc-cli serve openapi.yml --port 8088
+-> curl -o ./spec.json http://localhost:8088/spec.json
+-> curl -o ./index.html http://localhost:8088/index.html -> kaj korbe na
+
+bundle html
+----------
+redoc-cli bundle openapi.yml
