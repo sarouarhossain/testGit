@@ -23,6 +23,7 @@ Static imports
 
 Exceptions
 try, catch, finally, throw, throws
+gurbage collection
 errors vs exception
 Thread
 Synchronization
