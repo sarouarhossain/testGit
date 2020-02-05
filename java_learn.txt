@@ -1,0 +1,31 @@
+class
+object
+access modifier -> public, private, protected, default
+inheritance 
+constructor
+constructor chain
+constructor cloning
+Constructors concept for Abstract classes and interfaces
+super
+this
+new
+abstract class
+abstract method
+extends 
+overriding
+overloading
+call by value/ call by reference
+interface
+static block
+static method
+static variable
+Static imports
+
+Exceptions
+try, catch, finally, throw, throws
+errors vs exception
+Thread
+Synchronization
+Singleton
+
+https://www.quora.com/What-is-a-complete-list-of-topics-of-Core-Java-and-topics-of-Advanced-Java
